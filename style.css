@@ -41,3 +41,10 @@ body{
     border: none;
     border-radius: 5px;
 } 
+@media screen and(max-width696px){  
+
+    .main{
+        flex-direction: column;
+    }
+     
+    } 
