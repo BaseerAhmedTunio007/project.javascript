@@ -5,43 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css">
+    <script src="jr.js" defer></script>
 </head>
 <body>
-  <h3>Validation form</h3>
-  <hr>
+   <div class="main">
+    <div id="box">
+        <h2 id="quesBox">1) This is dumy question</h2>
 
-    <!-- for showing error -->
-    <ol id="error"></ol>
-    
-    <!-- form start here -->
+        <div class="row">
+            <input type="radio" class="option" id="option1" value="a" name="option">
+            <label for="option1">Option 1</label>
+            
+        </div>
+        <div class="row">
+            <input type="radio" class="option" id="option2" value="b" name="option">
+            <label for="option2">Option 2</label>
+           
+        </div>
 
-   <form action="home.html" method="get">
+        
+        <div class="row">
+            <input type="radio" class="option" id="option3" value="c" name="option">
+            <label for="option3">Option 3</label>
+           
+        </div>
 
+        
+        <div class="row">
+            <input type="radio" class="option" id="option4" value="d" name="option">
+            <label for="option4">Option 4</label>
+            
+        </div>
+    <button class="btn" onclick="submitQuiz()">
+            Submit 
+        </button>
 
-    <!-- for username-->
-
-    <div><label for="">username
-        <input type="text" id="uname" placeholder="input username">
-    </label>
     </div>
-
-      <!-- for password -->
-      <div>
-          <label for="">password
-        <input  type="password" id="pass" placeholder="input password">
-    </label>
-      </div>
-        <!-- for Email-->
-      <div>
-          <label for="">Email
-        <input type="email" id="email" placeholder="input Email">
-    </label>
-      </div>
-      <div>
-          <input type="submit" id="submit"/>
-      </div>
-   </form>
-</body>
-</html>
+   </div>
+   
+   
+   
+   
