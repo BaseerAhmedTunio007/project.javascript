@@ -43,8 +43,8 @@ body{
 } 
 @media screen and(max-width696px){  
 
-    .main{
-        flex-direction: column;
+    .main,#box{
+        flex-direction: row;
     }
      
     } 
